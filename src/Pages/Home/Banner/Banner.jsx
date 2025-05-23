@@ -7,7 +7,7 @@ import b3 from "../../../assets/banner/banner3.svg"
 
 const Banner = () => {
     return (
-        <Carousel className='banner-font' autoPlay infiniteLoop showArrows >
+        <Carousel className='banner-font ' autoPlay infiniteLoop showArrows >
             <div >
                 <div className="hero-content flex-col justify-between mx-auto lg:flex-row-reverse min-h-[720px]">
                     <img
@@ -17,7 +17,7 @@ const Banner = () => {
                     <div className='md:text-left'>
                         <h1 className="text-5xl  ">Home Internet</h1>
 
-                        <button className="btn bg-blue-500 text-white mt-10 border-none rounded-3xl">Learn More</button>
+                        <button className="btn bg-blue-500 mb-5 lg:mb-0  text-white mt-10 border-none rounded-3xl">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@ const Banner = () => {
                     <div className='md:text-left'>
                         <h1 className="text-5xl  ">Popular Package</h1>
 
-                        <button className="btn bg-blue-500 text-white mt-10 border-none rounded-3xl">Learn More</button>
+                        <button className="btn bg-blue-500 mb-5 lg:mb-0  text-white mt-10 border-none rounded-3xl">Learn More</button>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ const Banner = () => {
                     <div className='md:text-left'>
                         <h1 className="text-5xl  ">Corporate Internet</h1>
 
-                        <button className="btn bg-blue-500 text-white mt-10 border-none rounded-3xl">Learn More</button>
+                        <button className="btn bg-blue-500 mb-5 lg:mb-0  text-white mt-10 border-none rounded-3xl">Learn More</button>
                     </div>
                 </div>
             </div>
