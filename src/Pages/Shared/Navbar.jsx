@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const navOptions = <>
     <Link to={'/'}><li><h1>Home</h1></li></Link>
+    <Link to={'/login'}><li><h1>Login</h1></li></Link>
   
     </>
     return (

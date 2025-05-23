@@ -6,8 +6,9 @@ import b2 from "../../../assets/banner/banner2.svg"
 import b3 from "../../../assets/banner/banner3.svg"
 
 const Banner = () => {
+    
     return (
-        <Carousel className='banner-font ' autoPlay infiniteLoop showArrows >
+        <Carousel showThumbs={false} className='banner-font ' autoPlay infiniteLoop showArrows >
             <div >
                 <div className="hero-content flex-col justify-between mx-auto lg:flex-row-reverse min-h-[720px]">
                     <img
