@@ -19,7 +19,7 @@ const Popular = () => {
     return (
         <div>
             <p className='text-center text-4xl font-bold my-10'>Most Popular Package</p>
-            <div className="hero bg-base-200 min-h-screen">
+            <div className="hero  min-h-screen">
                 <div className="hero-content justify-evenly gap-10 flex-col lg:flex-row-reverse">
                     <img
                         src={p1}
