@@ -7,9 +7,11 @@ const Navbar = () => {
     const {user,signOutUser}=useAuth();
     const navOptions = <>
     <Link to={'/'}><li><h1>Home</h1></li></Link>
+    <Link to={'/packages'}><li><h1>Packages</h1></li></Link>
     {
         user?<li><h1 onClick={()=>signOutUser()}>Logout</h1></li>:<Link to={'/login'}><li><h1>Login</h1></li></Link>
     }
+    
   
     </>
     return (

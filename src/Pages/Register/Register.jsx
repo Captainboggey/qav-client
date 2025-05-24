@@ -32,7 +32,7 @@ const Register = () => {
                 axiosPublic.post('/users',userInfo)
                 .then(res=>{
                     if(res.data.insertedId){
-                        setNotify(notify);
+                        
                         navigate('/')
                     }
                 })
@@ -68,7 +68,7 @@ const Register = () => {
 
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={()=>useNotify}  className="btn bg-blue-500 text-white w-full">Register</button>
+                            <button onClick={notify}  className="btn bg-blue-500 text-white w-full">Register</button>
                               <Toaster />
                         </div>
                     </form>

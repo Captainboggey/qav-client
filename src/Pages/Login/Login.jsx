@@ -21,7 +21,7 @@ const Login = () => {
             signInUser(data.email,data.password)
             .then(res=>{
                 if(res.user){
-                    setNotify(notify)
+                    
                     navigate('/')
                 }
             })
@@ -45,7 +45,7 @@ const Login = () => {
                     
                         </div>
                         <div className="form-control mt-6">
-                            <button onClick={()=>useNotify} className="btn bg-blue-500 text-white w-full">Login</button>
+                            <button onClick={notify} className="btn bg-blue-500 text-white w-full">Login</button>
                              <Toaster />
                         </div>
                     </form>
